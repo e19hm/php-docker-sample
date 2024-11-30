@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  dockerphpsample:
+    image: dockerphpsample
+    build:
+      context: .
+      dockerfile: ./Dockerfile
